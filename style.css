@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 235, 235);
+}
+
+ h1 {
+    text-align: center;
+    margin-top: 8vh;
+}
+
+ p{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 1.5rem;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-left: 25%;
+    background-color: white;
+}
+
+.container .start-button {
+    display: block;
+    text-align: center;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid darkorange;
+    background-color:darkorange;
+    color: white;
+    font-size: 2rem;
+    /* display: none; */
+}
+
+.container .start-button:hover {
+background-color:rgb(222, 123, 2);
+}
+
+
+.container .show-question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .show-question p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.container .show-question button {
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    background-color: yellow;
+    border-radius: 0.25rem;
+    border: 1px solid yellow;
+    font-size: 1rem;
+    width: auto;
+}
+
+.container .show-question button:hover {
+    background-color: greenyellow;
+    border: greenyellow;
+}
+
+.container .show-question button:active{
+    background-color: greenyellow;
+    border: greenyellow;
+}
+
+#next-button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: red;
+    border-radius: 0.25rem;
+    border: 1px solid red;
+    font-size: 1rem;
+    margin-left: 80%;
+    display: none;
+    color: white;
+}
+
+#next-button:hover {
+    background-color:rgb(193, 3, 3);
+    border:rgb(193, 3, 3);
+}
+
+#result {
+    color: red;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#start-again {
+    display: none;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 80%;
+    margin-right: 10%;
+    padding: 1rem 1rem;
+    background-color: darkorange;
+    border: 1px solid darkorange;
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+    color: white;
+}

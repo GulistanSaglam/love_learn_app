@@ -1,0 +1,22 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which city is the capital of France?",
+            "option1": "Berlin",
+            "option2": "Dubai",
+            "option3": "France",
+            "option4": "Barcelona",
+            "answer": "France"
+        },
+        {
+            "id": 2,
+            "question": "Which color is the sun?",
+            "option1": "Yellow",
+            "option2": "Black",
+            "option3": "Blue",
+            "option4": "Green",
+            "answer": "Yellow"
+        }
+    ]
+}
